@@ -40,7 +40,10 @@ De klasser i Java I/O som förstår text är Reader och Writer, de som förstår
 	* Reader (Datakälla)
 	* Reader (Funktioner)
 
-StringTokenizer klassen kan användas för att hämta ut det man vill ha ur en sträng. Klassen Scanner kan också göra det.
+~~StringTokenizer klassen kan användas för att hämta ut det man vill ha ur en sträng. Klassen Scanner kan också göra det.~~
+
+"StringTokenizer is a legacy class that is retained for compatibility reasons although its use is discouraged in new code."
+Använd split metoden för String istället. 
 
 ```java
 import java.io.*;
