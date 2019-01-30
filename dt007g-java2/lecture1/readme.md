@@ -44,6 +44,7 @@ De klasser i Java I/O som förstår text är Reader och Writer, de som förstår
 
 "StringTokenizer is a legacy class that is retained for compatibility reasons although its use is discouraged in new code."
 Använd split metoden för String istället. 
+Källa: https://docs.oracle.com/javase/8/docs/api/index.html?java/util/StringTokenizer.html
 
 ```java
 import java.io.*;
