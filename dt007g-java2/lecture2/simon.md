@@ -31,10 +31,11 @@ for(Integer count : topCountSet)
 ```
  
  
-OutputStream - OS - datakälla
-             - OS - funktioner
-    -writer - datakälla
-            - funktioner
+OutputStream
+* OS - datakälla
+* OS - funktioner
+* writer - datakälla
+*        - funktioner
 
 
 ```java
