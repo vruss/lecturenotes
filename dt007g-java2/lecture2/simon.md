@@ -34,8 +34,8 @@ for(Integer count : topCountSet)
 OutputStream
 * OS - datakälla
 * OS - funktioner
-* writer - datakälla
-*        - funktioner
+* writer - datakälla och funktioner
+
 
 
 ```java
