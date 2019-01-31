@@ -15,7 +15,7 @@ Map<String,Integer> wordCountMap = getWordCountMap(words);
 Använd keySet för att hämta alla nycklar i mappen.
 Detta fungerar för att keySet är "iterable", medans map inte är det. se oracle docs.
 
-'''java
+```java
 Set<String> wordSet = wordCountMap.keySet();
 for(String word: wordSet)
 {
@@ -28,22 +28,22 @@ for(Integer count : topCountSet)
 {
     System.out.println("Ord: " + toplist.get.(count) + " förekommer " + count + " gånger");
 }
-'''
+```
  
  
 OutputStream - OS - datakälla
              - OS - funktioner
     -writer - datakälla
             - funktioner
-InputStream
 
-'''java
+
+```java
 FileOutputStream fos = new FileOutputStream(toplistobjekt.obj);
 ObjectOutPutStream oos = new ObjectOutputStream;
-'''
+```
 skriva objekt till fil
-object streams bör stängas
-kontrollera om det gick bra att läsa in en fil??
-printwriter för att skriva till filer.
-'''java
+object streams, bör stängas
+printwriter används för att skriva till filer.
+```java
 printWriter out = new PrintWriter(topListFileName);
+```
