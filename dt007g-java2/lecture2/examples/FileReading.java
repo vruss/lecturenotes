@@ -1,26 +1,3 @@
-## Föreläsning 3
-
-Primitiva typer (enkel typ)
-* int
-* char 
-* bool
-
-Referensetyper som String, fungerar som en pekare
-
-```java 
-String str1, str2; 
-str1 == str2; # jämför referenserna (pekarna). De kommer alltid returna falskt då de kommer från olika strängar. 
- 
-str1.equals(str2); # jämför värdet på referenserna. 
-``` 
-
-OutputStream har två kategorier:
-* OS data källa
-* OS funktioner
-
----
-Exempel på en förenklad klass som skriver ut de flest förekommande orden i en bok tillsammans med argumenthantering:
-```java
 import java.io.*;
 import java.util.*;
 
@@ -95,4 +72,3 @@ public class FileReading {
 		return wordCountMap;
 	}
 }
-```
