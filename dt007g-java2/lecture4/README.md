@@ -42,3 +42,47 @@ ButtonPanel {
 	b,addActionListener(lyssnare);
 }
 ```
+
+## fristånde klass ex
+```java
+public class ButtonActionListener implements Actionlistener{
+
+    public void actionPerformed(ActionEvent e)
+    {
+        System.out.println(e.getActionCommand());
+    }
+} // nu kan ett nytt objekt skapas i jpanel klassen och använda denna actionlistener.
+
+```
+
+## inre klass ex skrivs i en redan benfligt klass
+```java
+class ButtonActionListener implements ActionListener{
+    @ovveride
+    public void actionPerformed(ActionEvent e)
+    {
+        System.out.println(e.getActionCommand());
+    }
+}
+```
+## anonym inre klass
+```java 
+ActionListener al = new ActionListener(ActionEvent e )
+{
+    @ovveride
+    public void actionPerformed(ActioEvent e)
+    {
+        printText(e.paramString);
+    }
+};
+button.addActionListener(ButtonActionListener)
+```
+
+## lambda (en instans av en anonym inre klass)
+```java
+button.addActionListener((ActionEvent e) ->{
+printText(e.paramString);
+});
+```
+* lambda bör användas över anonym inre klass
+
